@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #36393f;
+    color: #dcddde;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2f3136;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #7289da;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Seções de dicas */
+section.tip {
+    background-color: #40444b;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #dcddde;
+}
+
+section.tip h2 {
+    font-size: 1.8rem;
+    color: #7289da;
+    margin-bottom: 10px;
+}
+
+section.tip p {
+    font-size: 1rem;
+    color: #b9bbbe;
+    margin-bottom: 10px;
+}
+
+section.tip ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section.tip ul li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #7289da;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2f3136;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 2px solid #7289da;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section.tip h2 {
+        font-size: 1.5rem;
+    }
+
+    section.tip p, section.tip ul li {
+        font-size: 0.9rem;
+    }
+}
